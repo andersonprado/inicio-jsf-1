@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#agendaContato.jsp" PATH="/agendaContato.jsp"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#agendaContato.jsp:0" NAME="item"
+   PATH="/agendaContato.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="ajuda::#ajuda.jsp" NAME="output"
+    PATH="/ajuda.jsp" TARGET="rules:#ajuda.jsp" TITLE="ajuda" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#ajuda.jsp" PATH="/ajuda.jsp"
+  SHAPE="240,33,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

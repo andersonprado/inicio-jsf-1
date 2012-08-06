@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="1.2"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd" >
+
+    <managed-bean>
+
+        <managed-bean-name>
+usuario
+        </managed-bean-name>
+
+        <managed-bean-class>
+br.com.teste.Usuario
+        </managed-bean-class>
+
+        <managed-bean-scope>
+request
+        </managed-bean-scope>
+    </managed-bean>
+
+</faces-config>

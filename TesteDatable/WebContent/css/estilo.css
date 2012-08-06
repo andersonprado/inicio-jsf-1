@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: black;
+}
+
+p {
+	background-color: red;
+	background-position: center;
+	font-weight: bold;
+}
+
+h1 {
+	background-color: red;
+	background-position: center;
+	font-weight: bold;
+}
+
+.tabela {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.cabecalho {
+	text-align: center;
+	color: white;
+	background: blue;
+}
+
+.linha1 {
+	background: #C9C9C9;
+}
+
+.linha2 {
+	background: white;
+}

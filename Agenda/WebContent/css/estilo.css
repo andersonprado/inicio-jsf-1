@@ -1,0 +1,20 @@
+.tabela {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.cabecalho {
+	text-align: center;
+	color: white;
+	background: blue;
+}
+
+.linha1 {
+	text-align: center;
+	background: #C9C9C9;
+}
+
+.linha2 {
+	text-align: center;
+	background: white;
+}
